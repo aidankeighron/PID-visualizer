@@ -57,6 +57,7 @@ public class PIDVisual {
         frame.add(pid);
         frame.add(bottom, BorderLayout.SOUTH);
         
+        frame.setTitle("PID Visualizer");;
         frame.setSize(800, 500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
